@@ -14,9 +14,21 @@ public class App {
         runStack();
 
         Ejercicio1 ejercicio1 = new Ejercicio1();
+
         String texto = "COMPUTACION";
         String textoInvertido = ejercicio1.invertString(texto);
+
         System.out.println(textoInvertido);
+
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+
+        String palabra1 = "radar";
+        String palabra2 = "computacion";
+
+        System.out.println("Palíndromos: ");
+        System.out.println(ejercicio2.esPalindromo(palabra1));
+        System.out.println(ejercicio2.esPalindromo(palabra2));
+
     }
  
     private static void runStack() {
